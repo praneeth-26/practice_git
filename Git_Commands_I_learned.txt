@@ -1,0 +1,10 @@
+git init - to initialize the folder as VCS.
+git branch - for list of branches.
+git branch branch_name - to create a new branch.
+git checkout branch_name or git switch branch_name - to switch to a branch.
+git status - to check status.
+git add . or git add * - to add all files.
+git commit -m "my message" - for commit my changes.
+git push - to push my changes.
+git pull origin main - Used to fetch and merge changes from a remote repository (usually named "origin") into your local branch (usually named "main").
+git stash - to stash(hold) my changes (temporary memory).
