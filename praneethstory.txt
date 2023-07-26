@@ -1,3 +1,11 @@
 this is my story.
 This is line in added on 23rd july to check the VCS.
 This is line on text is added to verify the new branch.
+-----------------
+7/26/2023
+Today I learned how to:
+ensure your local(main) copy is up-to date - "git pull origin main"
+create a new copy branch from main - "git branch pdendi_personal"
+switch to new branch - "git checkout pdendi_personal" or "git switch pdendi_personal"
+commit your changes - "git add *" and "git commit -m "new branch created i.e pdendi_personal""
+push the new branch to GitHub - "git push origin pdendi_personal"
