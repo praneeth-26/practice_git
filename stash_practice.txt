@@ -1,1 +1,7 @@
 let's learn stash in git.
+
+git stash - to stash the changes
+git stash pop - to apply the top stash
+git stash list - to show stash list
+git stash clear - to clear all stash list
+git stash apply 'stash@{0}' - to apply specific index stash
