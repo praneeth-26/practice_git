@@ -13,3 +13,20 @@ push the new branch to GitHub - "git push origin pdendi_personal"
 7/27/2023
 git branch -m feature-branch new-feature-branch - to rename the branch
 git push origin -u new-branch-name - to push the new branch name to github.
+----------------------------
+8/2/2023
+if there is an error message like :(
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+solution: git push origin main
+*******
+If I am not sure with changes and leads to merge conflict:
+If an error occurred while using "git pull"
+
+Steps:
+	-> git reset --hard HEAD
+	-> git branch -a
+    -> git rebase origin/mainline
+*******
