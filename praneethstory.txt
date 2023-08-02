@@ -9,3 +9,7 @@ create a new copy branch from main - "git branch pdendi_personal"
 switch to new branch - "git checkout pdendi_personal" or "git switch pdendi_personal"
 commit your changes - "git add *" and "git commit -m "new branch created i.e pdendi_personal""
 push the new branch to GitHub - "git push origin pdendi_personal"
+--------------------------
+7/27/2023
+git branch -m feature-branch new-feature-branch - to rename the branch
+git push origin -u new-branch-name - to push the new branch name to github.
