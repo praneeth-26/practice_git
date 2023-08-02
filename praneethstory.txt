@@ -30,3 +30,19 @@ Steps:
 	-> git branch -a
     -> git rebase origin/mainline
 *******
+if there is an error message in another branch like this::
+
+PS C:\Users\dendi\Documents\git_practice\practice_gitcommands_withgithub> git status
+On branch pdendi_personal
+nothing to commit, working tree clean
+PS C:\Users\dendi\Documents\git_practice\practice_gitcommands_withgithub> git push
+fatal: The current branch pdendi_personal has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin pdendi_personal
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+solution: git push --set-upstream origin pdendi_personal
+**********
