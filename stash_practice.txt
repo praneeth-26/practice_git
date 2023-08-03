@@ -10,3 +10,6 @@ git stash save 'pdendi stash' - this will create a stash and saved with message.
 
 These are few commands;
 For documentation: https://git-scm.com/docs/git-stash
+*********************
+
+We do have stash, squash, stage (comming Up!!)
