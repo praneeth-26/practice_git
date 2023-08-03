@@ -29,4 +29,10 @@ Both git reset and git revert help us reverse changes,
 but there is a significant difference when it comes to collaboration (which we have yet to discuss but is coming up soon!)
 If you want to reverse some commits that other people already have on their machines, you should use revert.
 If you want to reverse commits that you haven't shared with others, use reset and no one will ever know!
+*************************
+
+I use git reset to remove commits that I already shared with my team!
+This makes their lives harder. I altered history that they already have. BAD!
+I use git revert to reverse the same commits as before, by ADDING a new commit to the chain.
+My team can merge in the new "undo" commit without issue. I didn't alter history.
 
