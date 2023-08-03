@@ -45,4 +45,8 @@ To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 solution: git push --set-upstream origin pdendi_personal
-**********
+-------------------------------------------
+ALl about git diff command::
+git diff - to check what are the changes in the current branch OR
+git diff HEAD - lists all changes in the working tree since your last commit
+git diff --staged or git diff --cached - list the changes between the staging area and our last commit
