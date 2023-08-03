@@ -4,6 +4,7 @@ git push --delete <remote-name> <branch-name> (eg: git push --delete origin pden
 
 git branch -vv - to display the check which branch is associated with which remote branch
 ***********************************
+Restore::
 
 git restore - Is a brand new Git command that helps with undoing operations.
 For example, "git restore --source HEAD~1 home.html" will restore the contents of home.html to its state from the commit
@@ -13,6 +14,7 @@ If you have accidentally added a file to your staging area with git add and you 
 to remove it from staging. Use the --staged option like this:
 "git restore --staged app.js"
 **************************************
+Revert::
 
 git revert is similar to git reset in that they both "undo" changes, but they accomplish it in different ways.
 git reset actually moves the branch pointer backwards, eliminating commits.
@@ -20,4 +22,11 @@ git revert instead creates a brand new commit which reverses/undos the changes f
 you will be prompted to enter a commit message.
 
 How to use revert command - "git revert <commit-hash>"
+**********************
+
+Which One Should I Use?
+Both git reset and git revert help us reverse changes,
+but there is a significant difference when it comes to collaboration (which we have yet to discuss but is coming up soon!)
+If you want to reverse some commits that other people already have on their machines, you should use revert.
+If you want to reverse commits that you haven't shared with others, use reset and no one will ever know!
 
