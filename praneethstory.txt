@@ -55,3 +55,5 @@ git diff --staged or git diff --cached - list the changes between the staging ar
 Detached HEAD concept::
 git checkout commit-hash - this is used to detached HEAD.
 git switch branch_name - To Re-Attach HEAD
+git checkout HEAD~1 - HEAD~1 refers to the commit before HEAD (parent)
+git chekout HEAD~2 - HEAD~2 refers to 2 commits before HEAD (grandparent)
