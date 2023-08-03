@@ -50,3 +50,8 @@ ALl about git diff command::
 git diff - to check what are the changes in the current branch OR
 git diff HEAD - lists all changes in the working tree since your last commit
 git diff --staged or git diff --cached - list the changes between the staging area and our last commit
+-------------------------------------------------
+8/3/2023
+Detached HEAD concept::
+git checkout commit-hash - this is used to detached HEAD.
+git switch branch_name - To Re-Attach HEAD
