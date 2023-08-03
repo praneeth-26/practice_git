@@ -8,3 +8,17 @@ git commit -m "my message" - for commit my changes.
 git push - to push my changes.
 git pull origin main - Used to fetch and merge changes from a remote repository (usually named "origin") into your local branch (usually named "main").
 git stash - to stash(hold) my changes (temporary memory).
+**********************
+
+Steps to be followed to delete all the local and remote branches except the "main" branch in Git
+# Switch to the main branch
+git checkout main
+
+# List all local branches except the main branch
+git branch | grep -v "main" | xargs git branch -d
+
+# List all remote branches except the main branch
+git branch -r | grep -v "origin/main" | sed 's/origin\///' | xargs -I {} git push --delete origin {}
+
+# Optionally, prune any remote branches that might not be tracked locally anymore
+git remote prune origin
